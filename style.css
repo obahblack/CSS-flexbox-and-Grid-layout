@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+@media screen and(max-width: 1440px) and (min-width: 375) {
+    body {
+        background-color: hsl(0, 0%, 95%);
+    }
+}
+
+header {
+    top: 50px;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: 50%;
+    background-color: #333;
+    margin: auto;
+    color: aliceblue;
+    float: right;
+    display: block;
+    text-align: center;
+}
+
+a {
+    color: azure;
+}
+
+main {
+    padding: 11.5px 20px 11.5px 20px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-self: center;
+}
+
+.top-content {
+    padding: 50px;
+    background-color: hsl(31, 77%, 52%);
+    width: 100%;
+    height: 50%;
+}
+
+.suvs {
+    padding: 50px;
+    background-color: hsl(184, 100%, 22%);
+    width: 100%;
+    height: 50%;
+}
+
+.luxury {
+    padding: 50px;
+    background-color: hsl(179, 100%, 13%);
+    width: 100%;
+    height: 50%;
+}
+
+h2 {
+    padding: 10px;
+    font-Family: [Lexend Deca];
+    font-Weight: 700;
+    color: hsl(0, 0%, 95%)
+}
+
+img {
+    padding: 10px;
+}
+
+p {
+    font-size: 15px;
+    padding: 20px 0 70px 0;
+    font-Family: [Big Shoulders Display];
+    font-Weight: 400;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 3px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: hsl(0, 0%, 95%);
+    transition: 0.3s;
+    position: relative;
+}
+
+.lux:hover {
+    background-color: hsl(179, 100%, 13%);
+    border-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+.suv:hover {
+    background-color: hsl(184, 100%, 22%);
+    border-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.sedan:hover {
+    background-color: hsl(31, 77%, 52%);
+    border-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.lux:active {
+    background-color: hsl(179, 100%, 13%);
+    border-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+.suv:active {
+    background-color: hsl(184, 100%, 22%);
+    border-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.sedan:active {
+    background-color: hsl(31, 77%, 52%);
+    border-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.lux {
+    color: hsl(179, 100%, 13%);
+}
+
+.suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.sedan {
+    color: hsl(31, 77%, 52%);
+}
